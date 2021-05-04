@@ -12,6 +12,10 @@ int main()
      * Consejo: Asuma que el arreglo que se probará siempre va a estar ordenado
      */
     cout << "Challenge #1" << endl;
-    int arreglo[] = {0, 1, 1, 1, 2, 2};  // Empiece con este arreglo ya existente, el docente modificará este arreglo para pruebas
+    int arreglo() = [0, 1, 1, 1, 2, 2] // Empiece con este arreglo ya existente, el docente modificará este arreglo para pruebas
+    cout <<"Resultado" << arreglo << endl;
+    int arreglo2() = [0,0,0,1,2,2,3,3,3,3,3,4,4,4,4,]
+        cout <<"resultado arreglo2" << arreglo2 <<endl;
     return 0;
+    system("pause");
 }
